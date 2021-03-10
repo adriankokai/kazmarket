@@ -1,0 +1,9 @@
+[submodule "django-dropbox-storage"]
+	path = django-dropbox-storage
+	url = git@github.com:adriankokai/django-dropbox-storage.git
+[submodule "lib/django-dropbox-storage"]
+	path = lib/django-dropbox-storage
+	url = git@github.com:adriankokai/django-dropbox-storage.git
+[submodule "lib/django_dropbox_storage"]
+	path = lib/django_dropbox_storage
+	url = git@github.com:adriankokai/django-dropbox-storage.git
