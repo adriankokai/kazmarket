@@ -58,7 +58,7 @@ INSTALLED_APPS = [
 
 SITE_ID = 1
 
-DEFAULT_FILE_STORAGE = 'django-dropbox-storage.storage.DropboxStorage'
+DEFAULT_FILE_STORAGE = 'django-dropbox-storage.django_dropbox_storage.storage.DropboxStorage'
 #DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
 
 DROPBOX_ACCESS_TOKEN = str(os.getenv('DBX'))
