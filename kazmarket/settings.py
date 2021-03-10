@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django_dropbox_storage',
+    'django-dropbox-storage',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'django.contrib.sites',
