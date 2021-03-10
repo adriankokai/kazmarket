@@ -1,1 +1,11 @@
+django
+django-heroku
+pillow
+gunicorn
+djangorestframework-jwt
+djangorestframework
+django-cors-headers
+django-rest-auth
+django-allauth
 python-dotenv
+django-storages[dropbox]
