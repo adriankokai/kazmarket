@@ -106,15 +106,15 @@ AUTHENTICATION_BACKENDS = [
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-heroku_db_uri = 'postgres://dfiftegdybqqgl:358d928cf64c363ada373a30090de671b28daccd96786de66e85cc1c23cf53ab@ec2-52-44-31-100.compute-1.amazonaws.com:5432/d9n2nq8h1cdtd1'
+heroku_db_uri = 'postgres://uyoazmjmntpfuw:b86284bb5c784c0a7d8f56433ab0b49a32c3cddaaeb43211424f8fd5de07db5f@ec2-54-161-239-198.compute-1.amazonaws.com:5432/dflbfct2e6sm2s'
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd9n2nq8h1cdtd1',
-        'USER': 'dfiftegdybqqgl',
-        'PASSWORD': '358d928cf64c363ada373a30090de671b28daccd96786de66e85cc1c23cf53ab',
-        'HOST': 'ec2-52-44-31-100.compute-1.amazonaws.com',
+        'NAME': 'dflbfct2e6sm2s',
+        'USER': 'uyoazmjmntpfuw',
+        'PASSWORD': 'b86284bb5c784c0a7d8f56433ab0b49a32c3cddaaeb43211424f8fd5de07db5f',
+        'HOST': 'ec2-54-161-239-198.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
