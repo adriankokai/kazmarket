@@ -1,1 +1,1 @@
-web: gunicorn kokiestore.wsgi --log-file -
+web: gunicorn kazmarket.wsgi --log-file -
