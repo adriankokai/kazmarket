@@ -8,4 +8,4 @@ django-cors-headers
 django-rest-auth
 django-allauth
 python-dotenv
-django_dropbox_storage
+
