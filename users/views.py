@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rest_framework.respone import Response
+from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
 # Create your views here.
@@ -15,9 +15,9 @@ def current_user(request):
 
 @api_view(['POST'])
 def update_profile(request):
-    request.user.firstname = request.data.firstname
-    request.user.lastname = request.data.lastname
-    request.user.phone = request.data.phone
+    request.user.first_name = request.data["first_name"]
+    request.user.last_name = request.data["last_name"]
+    request.user.email = request.data["email"]
     request.user.save()
     return Response('updated profile:' + request.user.username)
     
